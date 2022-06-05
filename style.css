@@ -1,0 +1,87 @@
+body {
+    background-color: #141519;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #202731;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    border-radius: 20px;
+    padding: 22px;
+}
+
+#iconStar {
+    background-color: #262f38;
+    width: 45px;
+    height: 45px;
+    padding: 7px 10px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 28px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 22px;
+}
+
+.btn-circle button {
+    background-color: #262f38;
+    width: 45px;
+    height: 45px;
+    padding: 7px 10px;
+    border-radius: 25px;
+    color: hsl(217, 12%, 63%);
+    border: 1px solid #262f38;
+}
+
+.btngroup button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+}
+
+.btngroup button:focus {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+    outline: none;
+}
+
+.submitbtn {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    padding: 12px 0;
+    letter-spacing: 2px;
+    border: none;
+}
+
+.submitbtn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    outline: none;
+}
+
+.submitbtn:focus {
+    outline: none;
+}
+
+.selectScript {
+    background-color: #262f38;
+    color: hsl(25, 97%, 53%);
+    max-width: 65%;
+    border-radius: 15px;
+}
+
+.appreciateScript {
+    font-size: 14.5px;
+}
+
+.thankYou {
+    font-weight: 700;
+    font-size: 28px;
+    color: hsl(0, 0%, 100%);
+}
